@@ -30,7 +30,7 @@ def error_callback(update, context):
 if __name__ == "__main__":
     load_dotenv()
     load_questions()
-    print(QUESTIONS)
+
     TELEGRAM_TOKEN = getenv('TELEGRAM_TOKEN')
 
     updater = Updater(TELEGRAM_TOKEN, use_context= True) 
